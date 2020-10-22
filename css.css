@@ -1,0 +1,85 @@
+body {
+
+    background-image: url('photos/background.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#rf {
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+#rf img {
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#rf img.top:hover {
+    opacity: 0;
+}
+
+.column {
+    display: inline-table;
+    justify-content: center;
+}
+
+.column1 {
+    display: inline-table;
+    justify-content: center;
+}
+
+.row {
+    padding: 0;
+    margin-left: 0 auto;
+    margin-right: 29%;
+    margin-top: 40px;
+    text-align: center;
+    position: center;
+}
+
+#divStark {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
+
+#divBaratheon {
+    color: white;
+    position: absolute;
+    top: 140px;
+    right: 80px;
+}
+
+#divTargaryen {
+    color: white;
+    position: absolute;
+    bottom: 140px;
+    left: 80px;
+}
+
+#divLannister {
+    color: white;
+    position: absolute;
+    right: 80px;
+    bottom: 140px;
+}
+#valeri {
+    position: absolute;
+    font-weight: bold;
+    right: 20px;
+    bottom: 0px;
+    color: wheat;
+
+}
